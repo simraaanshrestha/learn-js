@@ -1,0 +1,60 @@
+.login {
+    background-color: #0056b3;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  
+  }
+  .profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  
+  }
+  .photo  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .photo img{
+    margin: 100px;
+    margin-bottom: -50px;
+
+  }
+  .login form{
+    margin-bottom: -50px;
+    background-color: none;
+  }
+ .login button{
+    padding: 10px 70px ;
+    border-radius: 50px;
+    background-color: #4f4f51;
+    color: white;
+    border: none;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .error{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .login a:hover{
+    text-decoration: underline;
+    color: orangered;
+  }

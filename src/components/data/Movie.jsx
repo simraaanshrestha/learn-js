@@ -1,0 +1,42 @@
+import React from 'react'
+
+const Movie = [
+  {id:1,
+  title: "Inception",
+  description: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+  image: "https://m.media-amazon.com/images/I/51zUbui+gbL._AC_.jpg",
+  releaseYear: 2010,
+  director: "Christopher Nolan",
+},
+    {id:2,
+    title: "The Dark Knight",
+    description: "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+    image: "https://m.media-amazon.com/images/I/51k5u3+1iFL._AC_.jpg",
+    releaseYear: 2008,
+    director: "Christopher Nolan",
+    },
+    {id:3,
+    title: "Interstellar",
+    description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    image: "https://m.media-amazon.com/images/I/91b4n9y6JpL._AC_SL1500_.jpg",
+    releaseYear: 2014,
+    director: "Christopher Nolan",
+    },
+    {id:4,
+    title: "The Matrix",
+    description: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    image: "https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg",
+    releaseYear: 1999,
+    director: "Lana Wachowski, Lilly Wachowski",
+    },
+    {id:5,
+    title: "Pulp Fiction",
+    description: "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    image: "https://m.media-amazon.com/images/I/51t8u7y5mXL._AC_.jpg",
+    releaseYear: 1994,
+    director: "Quentin Tarantino",
+    },
+    
+]
+
+export default Movie
