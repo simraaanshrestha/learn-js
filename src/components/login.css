@@ -42,12 +42,12 @@
     justify-content: center;
     cursor: pointer;
   }
-  a{
+  /* a{
     color: white;
     text-decoration: none;
     font-size: 13px;
     margin-top: 20px;
-  }
+  } */
   .error{
     color: red;
     font-size: 14px;

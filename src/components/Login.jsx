@@ -32,7 +32,7 @@ const Login = () => {
         </div>
         <h1>Simran Shrestha</h1>
         <form action="" onSubmit={formik.handleSubmit}>
-            <FaUser />
+            <FaUser className='icoon'  />
             <input 
             type="text" 
             placeholder='Username' 
@@ -45,7 +45,7 @@ const Login = () => {
         <div className='error'>{formik.errors.username}</div>
       ) : null}
 
-            <RiLockPasswordFill />
+            <RiLockPasswordFill className='icoon' />
             <input type="password"
              placeholder='Password'
               name='pass' 

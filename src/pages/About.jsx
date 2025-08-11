@@ -1,8 +1,12 @@
 import React from 'react'
+import Tailwind from '../components/Tailwind'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>About
+
+      <Tailwind/>
+    </div>
   )
 }
 

@@ -11,6 +11,8 @@ import Form from './components/Form';
 import UseEffect from './components/UseEffect';
 import SignupForm from './SignUp';
 import Login from './components/Login';
+import Blog from './components/blog';
+import Navbar2 from './components/Navbar2';
 // import UseState from './components/UseState';
 
 function App() {
@@ -28,11 +30,13 @@ function App() {
   })} */}
       {/* <CompA data="This is data from component 1 " /> */}
       <BrowserRouter>
-  <Navvbar/>
+  {/* <Navvbar/> */}
+  <Navbar2/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path='/contact' element={<Contact/>}></Route>
+          <Route path='/blog' element={<Blog/>}></Route>
           <Route path='/movies' element={<Movies/>}></Route>
           <Route path='/login' element={<Login/>}></Route>
           <Route path='/signup' element={<SignupForm/>}></Route>    

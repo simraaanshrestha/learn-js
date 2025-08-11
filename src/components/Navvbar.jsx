@@ -3,7 +3,14 @@ import { IoIosSearch } from "react-icons/io";
 import { PiShoppingCartSimpleLight } from "react-icons/pi";
 import { Link } from 'react-router-dom';
 import NavItem from './data/NavItem';
+import { useTheme } from '../context/ThemeProvider';
 const Navvbar = () => {
+  const {theme, setTheme}= useTheme();
+
+  const handleClick = () => {
+    function handleClick(){}
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  }
   return (
 
 
@@ -27,6 +34,7 @@ const Navvbar = () => {
               </li>
             );
           })}
+          <button onClick={handleClick}>{theme}</button>
         </ul>
         <div>
           <div className="abs"><input type="text" name="" id="" placeholder='Search in Daraz' />

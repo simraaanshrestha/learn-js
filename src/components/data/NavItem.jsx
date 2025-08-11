@@ -10,34 +10,34 @@ const NavItem = [
 {id:2,
     title: "About",
     to: "/about",
-    icon:"test"
+   icon: MdHome 
   },    
 
 {id:3,
     title: "Contact",
     to: "/contact",
-    icon:"test"
+   icon: MdHome 
   },    
 
 {id:4,
-    title: "Login",
-    to: "/login",
-    icon:"test"
+    title: "Blog",
+    to: "/blog",
+   icon: MdHome 
   },    
-{id:5,
+{id:4.1,
     title: "Movies",
     to: "/movies",
-    icon:"test"
+   icon: MdHome 
   },
   {id:5,
     title: "Sign Up",
     to: "/signup",
-    icon:"test"
+   icon: MdHome 
   },
-  {id:5,
+  {id:6,
     title: "Login",
     to: "/login",
-    icon:"test"
+   icon: MdHome 
   },
 ]
 
